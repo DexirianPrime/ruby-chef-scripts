@@ -5,8 +5,6 @@
 # dtbg = data_bag_item('yp_elk', 'bonjour', node.run_state["secret_yp_elk"])
 # var = data_bag_item('dtbg_name', 'dtbg_item', 'node.run_state["secret_ckbk_name"]')
 # Then : dtbg['key'] to extract the values
-# Maintainer : Samuel Ross (samuel.ross@cgi.com)
-# Copyright (c) 2019 Samuel Ross, All Rights Reserved.
 
 module YpSys
   module SecretHelpers
